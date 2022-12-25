@@ -1,0 +1,8 @@
+print("Main.lua 准备就绪")
+require("InitClass")
+require("BasePanel")
+require("BagPanel")
+require("ItemGrid")
+require("PlayerData")
+PlayerData:Init()
+BagPanel:Show("BagUI")
